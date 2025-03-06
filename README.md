@@ -1,4 +1,4 @@
-# YoungLabs - Web App (Vite + Express) 🚀  
+# YoungLabs - Web App (Vite + Express) 
 
 ##  Overview  
 This repository is for the **YoungLabs**, featuring a web application with a **Vite (React & Tailwind CSS)** frontend and a **Node.js (Express)** backend. The project includes a simple user interface where a user can enter their name, click a button to get a greeting message from the backend API, and display the response on the webpage.
@@ -60,13 +60,12 @@ npm install
 
 **Start Backend**  
 ```sh
-cd backend
 node index.js
 ```
+Open New Terminal locate to frontend folder
 
 **Start Frontend**  
 ```sh
-cd frontend
 npm run dev
 ```
 
