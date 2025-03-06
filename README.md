@@ -34,8 +34,8 @@ README.md
 
 ### 1. Clone the Repository  
 ```sh
-git clone https://github.com/your-username/my-app.git
-cd my-app
+git clone https://github.com/kushvahasumit/younglabs.git
+cd younglabs
 ```
 
 ---
@@ -81,6 +81,6 @@ npm run dev
 ---
 
 ## Live UI
-(Live link)[https://younglabs-eosin.vercel.app/]
+[Live link](https://younglabs-eosin.vercel.app/)
 
 
