@@ -7,10 +7,12 @@ export default function GreetMe() {
     const [greeting,setGreeting] = useState("");
     console.log(name);
 
+    const api_url = "https://younglabs-gclt.onrender.com";
+
     // fetching api function
     const fetchApi = async ()=> {
       try {
-        const getData = await fetch("http://localhost:5000/api/greet?name=" + name)
+        const getData = await fetch(`${api_url}/api/greet?name=` + name)
         const myData = await getData.json()
         console.log(myData);
         setGreeting(myData.message)
